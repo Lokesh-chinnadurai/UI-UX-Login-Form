@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale= 1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">LOKESH</h2>
+      <nav class="navigation">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICE</a><a href="#">CONTACT</a>
+        <button class="btnloginpopup">LOGIN</button>
+      </nav>
+    </header>
+    <div class="container">
+      <button class="closeicon">
+        <i class="bx bx-x"></i>
+      </button>
+      <div class="form-box">
+        <form action="#" class="loginform">
+          <h2 style="text-align: center">LOGIN</h2>
+          <div
+            class="input-box"
+            style="
+              margin: 35px 0;
+              width: 330px;
+              border-bottom: 2px solid rgba(red, green, blue, alpha);
+              position: relative;
+            "
+          >
+            <input
+              type="text"
+              required
+              style="
+                background: transparent;
+                background-color: black;
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                width: 100%;
+                height: 40px;
+                padding: 0 35px 0 5px;
+              "
+            />
+            <label> USERNAME \ MAIL ID</label>
+            <i
+              class="bx bxs-user"
+              style="
+                position: absolute;
+                right: 8px;
+                top: 15px;
+                transform: translateY(-50%);
+              "
+            ></i>
+          </div>
+          <div
+            class="input-box"
+            style="
+              margin: 35px 0;
+              width: 330px;
+              border-bottom: 2px solid rgba(red, green, blue, alpha);
+              position: relative;
+            "
+          >
+            <input
+              type="password"
+              required
+              style="
+                background: transparent;
+                background-color: rgb(0, 0, 0);
+
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                width: 100%;
+                height: 40px;
+                padding: 0 35px 0 5px;
+              "
+            />
+            <label>PASSWORD</label>
+            <i
+              class="bx bx-lock-alt"
+              style="
+                position: absolute;
+                right: 8px;
+                top: 15px;
+                transform: translateY(-50%);
+              "
+            ></i>
+          </div>
+          <div
+            class="forget-section"
+            style="
+              display: flex;
+              justify-content: space-between;
+              font-size: 15px;
+              margin: 15px 0 15px;
+            "
+          >
+            <p style="display: flex; align-items: center">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                style="accent-color: red; margin: 0 3px"
+              />Remember me
+            </p>
+            <a href="#" style="text-decoration: none">Forget password</a>
+          </div>
+          <button class="btn">SIGN IN</button>
+          <div
+            class="ACCOUNT CREATION"
+            style="text-align: center; margin: 25px 10px; font-size: 15px"
+          >
+            <span style="text-decoration: none">Don't have an account ?</span>
+            <a href="#" class="Registerlink" style="text-decoration: underline"
+              >Register</a
+            >
+          </div>
+        </form>
+        <form action="#" class="registerform">
+          <h2 style="text-align: center">REGISTER</h2>
+          <div
+            class="input-box"
+            style="
+              margin: 35px 0;
+              width: 330px;
+              border-bottom: 2px solid rgba(red, green, blue, alpha);
+              position: relative;
+            "
+          >
+            <input
+              type="text"
+              required
+              style="
+                background: transparent;
+                background-color: black;
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                width: 100%;
+                height: 40px;
+                padding: 0 35px 0 5px;
+              "
+            />
+            <label> USERNAME</label>
+            <i
+              class="bx bxs-user"
+              style="
+                position: absolute;
+                right: 8px;
+                top: 15px;
+                transform: translateY(-50%);
+              "
+            ></i>
+          </div>
+          <div
+            class="input-box"
+            style="
+              margin: 35px 0;
+              width: 330px;
+              border-bottom: 2px solid rgba(red, green, blue, alpha);
+              position: relative;
+            "
+          >
+            <input
+              type="text"
+              required
+              style="
+                background: transparent;
+                background-color: black;
+                border-radius: 50px;
+                border: none;
+                outline: none;
+                width: 100%;
+                height: 40px;
+                padding: 0 35px 0 5px;
+              "
+            />
+            <label> MAIL ID</label>
+            <i
+              class="bx bxl-gmail"
+              style="
+                position: absolute;
+                right: 8px;
+                top: 15px;
+                transform: translateY(-50%);
+              "
+            ></i>
+            <div
+              class="input-box"
+              style="
+                margin: 35px 0;
+                width: 330px;
+                border-bottom: 2px solid rgba(red, green, blue, alpha);
+                position: relative;
+              "
+            >
+              <input
+                type="password"
+                required
+                style="
+                  background: transparent;
+                  background-color: black;
+                  border-radius: 50px;
+                  border: none;
+                  outline: none;
+                  width: 100%;
+                  height: 40px;
+                  padding: 0 35px 0 5px;
+                "
+              />
+              <label>PASSWORD</label>
+              <i
+                class="bx bx-lock-alt"
+                style="
+                  position: absolute;
+                  right: 8px;
+                  top: 15px;
+                  transform: translateY(-50%);
+                "
+              ></i>
+            </div>
+          </div>
+          <p style="display: flex; align-items: center">
+            <input
+              type="checkbox"
+              name=""
+              id=""
+              style="accent-color: red; margin: 20px 5px"
+            />I Agree the terms and condition
+          </p>
+
+          <button class="button">SIGN UP</button>
+          <div
+            class="ACCOUNT CREATION"
+            style="text-align: center; margin: 25px 10px; font-size: 15px"
+          >
+            <span style="text-decoration: none">Already have an account ?</span>
+            <a href="#" class="loginlink" style="text-decoration: underline"
+              >login</a
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      const container = document.querySelector(".container");
+      const closeicon = document.querySelector(".closeicon");
+
+      const loginform = document.querySelector(".loginform");
+      const registerform = document.querySelector(".registerform");
+      const Registerlink = document.querySelector(".Registerlink");
+      const loginlink = document.querySelector(".loginlink");
+      const btnloginpopup = document.querySelector(".btnloginpopup");
+
+      btnloginpopup.onclick = () => {
+        container.classList.add("active-pop");
+      };
+      closeicon.onclick = () => {
+        container.classList.remove("active-pop");
+      };
+
+      Registerlink.onclick = () => {
+        registerform.classList.add("active");
+        loginform.classList.add("active");
+      };
+      loginlink.onclick = () => {
+        registerform.classList.remove("active");
+        loginform.classList.remove("active");
+      };
+    </script>
+  </body>
+</html>
